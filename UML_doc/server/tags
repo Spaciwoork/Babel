@@ -1,0 +1,102 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACCEPTED	codes_command.hpp	18;"	e	enum:Command::Code
+BAD_REQUEST	codes_command.hpp	20;"	e	enum:Command::Code
+CREATED	codes_command.hpp	17;"	e	enum:Command::Code
+Code	codes_command.hpp	15;"	g	class:Command	access:public
+Code	codes_command.hpp	26;"	t	class:Command	typeref:enum:Command::Code	access:public
+Command	codes_command.hpp	10;"	x
+Command	codes_command.hpp	12;"	c
+Connection	connection.hpp	34;"	c	inherits:boost::enable_shared_from_this,boost::noncopyable
+Connection	connection.hpp	38;"	p	class:Connection	access:public
+Connection_manager	connection.hpp	32;"	x
+Connection_manager	connection_manager.hpp	17;"	c	inherits:boost::noncopyable
+Connection_manager	connection_manager.hpp	19;"	p	class:Connection_manager	access:public
+FORBIDEN	codes_command.hpp	22;"	e	enum:Command::Code
+INTERNAL_SERVER_ERROR	codes_command.hpp	24;"	e	enum:Command::Code
+NOT_FOUND	codes_command.hpp	23;"	e	enum:Command::Code
+NO_CONTENT	codes_command.hpp	19;"	e	enum:Command::Code
+OK	codes_command.hpp	16;"	e	enum:Command::Code
+Request	request.hpp	17;"	c
+SERVICE_UNVAIBLE	codes_command.hpp	25;"	e	enum:Command::Code
+Server	server.hpp	19;"	c	inherits:boost::noncopyable
+Server	server.hpp	22;"	p	class:Server	access:public
+UNAUTHORIZED	codes_command.hpp	21;"	e	enum:Command::Code
+_Acceptor	server.hpp	31;"	m	class:Server	access:protected
+_Addr	server.hpp	27;"	m	class:Server	access:protected
+_Buffer	connection.hpp	63;"	m	class:Connection	access:protected
+_Cmd	connection.hpp	73;"	m	class:Connection	access:protected
+_Cmd	request.hpp	23;"	m	class:Request	access:public
+_Connect	connection.hpp	72;"	m	class:Connection	access:protected
+_Connection_manager	connection.hpp	66;"	m	class:Connection	access:protected
+_Connection_manager	server.hpp	33;"	m	class:Server	access:protected
+_Connection_ptr	connection.hpp	77;"	t
+_Connections	connection_manager.hpp	25;"	m	class:Connection_manager	access:private
+_Io_service	server.hpp	29;"	m	class:Server	access:protected
+_Ip	user.hpp	16;"	m	class:user	access:private
+_Log	connection.hpp	68;"	m	class:Connection	access:protected
+_Manager	connection.hpp	67;"	m	class:Connection	access:protected
+_Name	user.hpp	15;"	m	class:user	access:private
+_New_connection	server.hpp	34;"	m	class:Server	access:protected
+_Port	connection.hpp	69;"	m	class:Connection	access:protected
+_Port	server.hpp	26;"	m	class:Server	access:protected
+_Port	user.hpp	17;"	m	class:user	access:private
+_Repertory	connection.hpp	71;"	m	class:Connection	access:protected
+_Repertory	connection_manager.hpp	26;"	m	class:Connection_manager	access:private
+_Reply	connection.hpp	70;"	m	class:Connection	access:protected
+_Signals	server.hpp	30;"	m	class:Server	access:protected
+_Socket	connection.hpp	62;"	m	class:Connection	access:protected
+_Tcp_socket	connection.hpp	64;"	m	class:Connection	access:protected
+_UserList	repertory.hpp	16;"	m	class:repertory	access:protected
+addUser	repertory.hpp	21;"	p	class:repertory	access:public
+analyse	request.hpp	20;"	p	class:Request	access:public
+catch_log	connection.hpp	48;"	p	class:Connection	access:public
+catch_login	connection.hpp	52;"	p	class:Connection	access:public
+catch_port	connection.hpp	53;"	p	class:Connection	access:public
+check_log	connection.hpp	47;"	p	class:Connection	access:public
+connect	request.hpp	21;"	p	class:Request	access:public
+editUser	repertory.hpp	25;"	p	class:repertory	access:public
+getCmd	connection.hpp	50;"	p	class:Connection	access:public
+getIp	user.hpp	27;"	p	class:user	access:public
+getName	user.hpp	26;"	p	class:user	access:public
+getPort	user.hpp	28;"	p	class:user	access:public
+getUser	repertory.hpp	24;"	p	class:repertory	access:public
+getUserList	repertory.hpp	20;"	p	class:repertory	access:public
+get_answer_code	codes_command.hpp	27;"	p	class:Command	access:public
+handle_accept	server.hpp	37;"	p	class:Server	access:protected
+handle_read	connection.hpp	56;"	p	class:Connection	access:protected
+handle_stop	server.hpp	38;"	p	class:Server	access:protected
+handle_write	connection.hpp	60;"	p	class:Connection	access:protected
+isEmpty	user.hpp	29;"	p	class:user	access:public
+read	connection.hpp	43;"	p	class:Connection	access:public
+reading_analytics	connection.hpp	49;"	p	class:Connection	access:public
+removeUser	repertory.hpp	22;"	p	class:repertory	access:public
+repertory	repertory.hpp	14;"	c
+repertory	repertory.hpp	18;"	p	class:repertory	access:public
+runResolver	server.hpp	40;"	p	class:Server	access:protected
+runService	server.hpp	23;"	p	class:Server	access:public
+runSignals	server.hpp	39;"	p	class:Server	access:protected
+sendUserList	connection.hpp	51;"	p	class:Connection	access:public
+setIp	user.hpp	24;"	p	class:user	access:public
+setName	user.hpp	23;"	p	class:user	access:public
+setPort	user.hpp	25;"	p	class:user	access:public
+socket	connection.hpp	42;"	p	class:Connection	access:public
+start	connection.hpp	45;"	p	class:Connection	access:public
+start	connection_manager.hpp	20;"	p	class:Connection_manager	access:public
+start_accept	server.hpp	36;"	p	class:Server	access:protected
+stop	connection.hpp	46;"	p	class:Connection	access:public
+stop	connection_manager.hpp	21;"	p	class:Connection_manager	access:public
+stop_all	connection_manager.hpp	22;"	p	class:Connection_manager	access:public
+user	user.hpp	13;"	c
+user	user.hpp	20;"	p	class:user	access:public
+user	user.hpp	21;"	p	class:user	access:public
+userExists	repertory.hpp	23;"	p	class:repertory	access:public
+write	connection.hpp	44;"	p	class:Connection	access:public
+~Command	codes_command.hpp	14;"	p	class:Command	access:public
+~Request	request.hpp	22;"	p	class:Request	access:public
+~repertory	repertory.hpp	19;"	p	class:repertory	access:public
+~user	user.hpp	22;"	p	class:user	access:public

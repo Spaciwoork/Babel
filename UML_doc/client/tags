@@ -1,0 +1,102 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AddUserButton	AddUserButton.hpp	17;"	c	inherits:QPushButton
+AddUserButton	AddUserButton.hpp	21;"	p	class:AddUserButton	access:public
+Adduser	ListeUsers.hpp	25;"	p	class:CreateListUser	access:public
+Caller	Caller.hpp	14;"	c	inherits:QPushButton
+Caller	Caller.hpp	18;"	p	class:Caller	access:public
+Client	clientconnect.hpp	13;"	c	inherits:QObject
+Client	clientconnect.hpp	18;"	p	class:Client	access:public
+ClientServer	ClientServer.hpp	18;"	c	inherits:QWidget
+ClientServer	ClientServer.hpp	23;"	p	class:ClientServer	access:public
+Connection	clientconnect.hpp	22;"	p	class:Client	access:public
+Connection	serverconnect.hpp	18;"	p	class:ServerConnect	access:public
+ConnectionCode	Connection.hpp	19;"	c	inherits:QWidget
+ConnectionCode	Connection.hpp	24;"	p	class:ConnectionCode	access:public
+CreateListUser	ListeUsers.hpp	20;"	c	inherits:QLabel
+CreateListUser	ListeUsers.hpp	23;"	p	class:CreateListUser	access:public
+CustomWidget	CustomWidget.hpp	14;"	c	inherits:QWidget
+CustomWidget	CustomWidget.hpp	19;"	p	class:CustomWidget	access:public
+EnterInformation	Connection.hpp	26;"	p	class:ConnectionCode	access:public
+EnterPseudo	AddUserButton.hpp	25;"	p	class:AddUserButton	access:public
+MainWindow	CreateWindow.hpp	27;"	c	inherits:QMainWindow
+MainWindow	CreateWindow.hpp	30;"	p	class:MainWindow	access:public
+QuitButton	QuitButton.hpp	21;"	c	inherits:QPushButton
+QuitButton	QuitButton.hpp	26;"	p	class:QuitButton	access:public
+SAMPLE	audio.hpp	28;"	t
+SAMPLE	audio.hpp	33;"	t
+SAMPLE	audio.hpp	38;"	t
+SAMPLE	audio.hpp	43;"	t
+ServerConnect	serverconnect.hpp	10;"	c	inherits:QTcpServer
+ServerConnect	serverconnect.hpp	15;"	p	class:ServerConnect	access:public
+StartCall	Caller.hpp	23;"	p	class:Caller	access:public
+TCPClient	Network.hpp	16;"	c	inherits:QWidget
+TCPClient	Network.hpp	20;"	p	class:TCPClient	access:public
+_audio	clientconnect.hpp	35;"	m	class:Client	access:private
+_audio	serverconnect.hpp	30;"	m	class:ServerConnect	access:private
+_buffers	clientconnect.hpp	34;"	m	class:Client	access:private
+_buffers	serverconnect.hpp	29;"	m	class:ServerConnect	access:private
+_bytes_left	clientconnect.hpp	33;"	m	class:Client	access:private
+_bytes_left	serverconnect.hpp	27;"	m	class:ServerConnect	access:private
+_client	QuitButton.hpp	30;"	m	class:QuitButton	access:protected
+_port	serverconnect.hpp	26;"	m	class:ServerConnect	access:private
+addUserButton	CreateWindow.hpp	34;"	m	class:MainWindow	access:private
+audio	clientconnect.hpp	26;"	p	class:Client	access:public
+audio	serverconnect.hpp	24;"	p	class:ServerConnect	access:public
+buffer	clientconnect.hpp	11;"	t
+buffer	serverconnect.hpp	8;"	t
+buttonQuitter	ClientServer.hpp	32;"	m	class:ClientServer	access:private
+call	CreateWindow.hpp	38;"	m	class:MainWindow	access:private
+client	Caller.hpp	26;"	m	class:Caller	access:protected
+clients	ClientServer.hpp	36;"	m	class:ClientServer	access:private
+close	clientconnect.hpp	21;"	p	class:Client	access:public
+close	serverconnect.hpp	16;"	p	class:ServerConnect	access:public
+connect	CreateWindow.hpp	39;"	m	class:MainWindow	access:private
+customWidget	CreateWindow.hpp	35;"	m	class:MainWindow	access:private
+etatServer	ClientServer.hpp	31;"	m	class:ClientServer	access:private
+frameIndex	audio.hpp	50;"	m	struct:__anon1	access:public
+getState	AddUserButton.hpp	31;"	p	class:AddUserButton	access:public
+in	clientconnect.hpp	30;"	m	class:Client	access:private
+listUser	CreateWindow.hpp	40;"	m	class:MainWindow	access:private
+logout	QuitButton.hpp	33;"	p	class:QuitButton	access:public
+maxFrameIndex	audio.hpp	51;"	m	struct:__anon1	access:public
+newPseudo	CreateWindow.hpp	37;"	m	class:MainWindow	access:private
+nouvelleConnexion	ClientServer.hpp	27;"	p	class:ClientServer	access:private
+override	serverconnect.hpp	20;"	m	class:ServerConnect	access:protected
+paTestData	audio.hpp	54;"	t	typeref:struct:__anon1
+paintEvent	CustomWidget.hpp	23;"	p	class:CustomWidget	access:protected
+playCallback	audio.hpp	65;"	p
+play_sound	audio.hpp	57;"	p
+port	clientconnect.hpp	32;"	m	class:Client	access:private
+quitButton	CreateWindow.hpp	36;"	m	class:MainWindow	access:private
+read	clientconnect.hpp	24;"	p	class:Client	access:public
+readAudio	clientconnect.hpp	27;"	p	class:Client	access:public
+readData	serverconnect.hpp	22;"	p	class:ServerConnect	access:public
+record	audio.hpp	56;"	p
+recordCallback	audio.hpp	59;"	p
+recordedSamples	audio.hpp	52;"	m	struct:__anon1	access:public
+request_call	Caller.hpp	27;"	m	class:Caller	access:protected
+server	clientconnect.hpp	31;"	m	class:Client	access:private
+serverConnect	AddUserButton.hpp	28;"	m	class:AddUserButton	access:protected
+serveur	ClientServer.hpp	34;"	m	class:ClientServer	access:private
+setConnection	clientconnect.hpp	20;"	p	class:Client	access:public
+setConnection	serverconnect.hpp	17;"	p	class:ServerConnect	access:public
+setState	AddUserButton.hpp	33;"	p	class:AddUserButton	access:public
+state	AddUserButton.hpp	29;"	m	class:AddUserButton	access:protected
+tailleMessage	ClientServer.hpp	38;"	m	class:ClientServer	access:private
+tcpSocket	clientconnect.hpp	29;"	m	class:Client	access:private
+tcpSocket	serverconnect.hpp	28;"	m	class:ServerConnect	access:private
+writeData	clientconnect.hpp	25;"	p	class:Client	access:public
+writeData	serverconnect.hpp	23;"	p	class:ServerConnect	access:public
+~AddUserButton	AddUserButton.hpp	22;"	p	class:AddUserButton	access:public
+~Caller	Caller.hpp	19;"	p	class:Caller	access:public
+~Client	clientconnect.hpp	19;"	p	class:Client	access:public
+~ConnectionCode	Connection.hpp	25;"	p	class:ConnectionCode	access:public
+~CreateListUser	ListeUsers.hpp	24;"	p	class:CreateListUser	access:public
+~CustomWidget	CustomWidget.hpp	20;"	p	class:CustomWidget	access:public
+~MainWindow	CreateWindow.hpp	31;"	p	class:MainWindow	access:public
+~QuitButton	QuitButton.hpp	27;"	p	class:QuitButton	access:public

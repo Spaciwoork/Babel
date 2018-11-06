@@ -1,0 +1,12 @@
+graph G {
+	boost -- Connection;
+	boost -- Connection_manager;
+	boost -- Server;
+	Connection_manager -- Server [style=dotted];
+	Connection_manager -- Connection [style=dotted];
+	repertory -- Connection_manager [style=dotted];
+	Command -- Request [style=dotted];
+	Request -- Connection [style=dotted];
+	user -- repertory [style=dotted];
+}
+

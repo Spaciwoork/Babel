@@ -1,0 +1,15 @@
+graph G {
+	QPushButton -- AddUserButton;
+	QPushButton -- Caller;
+	QObject -- Client;
+	QWidget -- ClientServer;
+	QWidget -- ConnectionCode;
+	QLabel -- CreateListUser;
+	QWidget -- CustomWidget;
+	QMainWindow -- MainWindow;
+	QPushButton -- QuitButton;
+	QTcpServer -- ServerConnect;
+	QWidget -- TCPClient;
+	ConnectionCode -- MainWindow [style=dotted];
+}
+

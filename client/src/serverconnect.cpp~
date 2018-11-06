@@ -1,0 +1,69 @@
+#include <QtNetwork>
+#include <iostream>
+#include <QRandomGenerator>
+#include <stdlib.h>
+#include "../include/server.hpp"
+
+Server::Server(quint16 port, QObject *parent)
+    : QTcpServer(parent)
+{
+	_port = port;
+}
+
+void Server::setConnection(int port_v)
+{
+	_port = port_v;
+	close();
+	Connection();
+}
+
+void Server::Connection()
+{
+	listen(QHostAddress::Any, _port);
+}
+
+void Server::incomingConnection(qintptr socketDescriptor)
+{
+    connect(&tcpSocket, &QIODevice::channelReadyRead, this, &Server::readData);
+    if (!tcpSocket.setSocketDescriptor(socketDescriptor)) {
+        return;
+    }
+
+    QByteArray block;
+    QDataStream out(&block, QIODevice::WriteOnly);
+    out.setVersion(QDataStream::Qt_5_0);
+
+    writeData((void*)"My name is coco", 10);
+}
+
+void Server::close()
+{
+	tcpSocket.disconnectFromHost();
+	tcpSocket.waitForDisconnected();
+}
+void Server::readData()
+{
+	std::cout << "Incoming" << std::endl;
+	qint64 maxLen = 4096;
+        std::pair<char *, int> line;
+
+        while (1){
+                line.first = new char[maxLen];
+                line.second = tcpSocket.read(line.first, maxLen);
+                if (line.second <= 0){
+                        std::cout << "end" << std::endl;
+                        return ;
+                }
+                else {
+                        std::cout << line.first << std::endl;
+                        std::cout << line.second << std::endl;
+                        std::cout << "ok" << std::endl;
+                }
+        }
+
+}
+
+void Server::writeData(void *data, size_t size)
+{
+	tcpSocket.write((const char *)data, size);
+}
